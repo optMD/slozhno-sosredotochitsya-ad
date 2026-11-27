@@ -274,6 +274,15 @@
     min-inline-size: 0;
   }
 
+  .content-section_wide {
+    display: block;
+  }
+
+  .content-section_wide .content-section__title {
+    inline-size: calc((100% - 20px) / 3);
+    margin-block-end: 20px;
+  }
+
   .gallery__title {
     margin-block-end: 20px;
   }
